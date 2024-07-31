@@ -24,7 +24,7 @@ async def on_message(message):
 
     print(f'Message from  {message.author}: {message.content}')
 
-    if message.content.startswith('Hellow'):
+    if message.content.startswith('Hello'):
         await message.channel.send('Heey')
 
     if 'commands' in message.content.lower():
